@@ -21,6 +21,6 @@ call npm run build
 :: Git команды
 git add .
 git commit -m "Update: %current_date%"
-git push origin main --force
+git push origin main
 
 echo Successfully pushed with date: %current_date%
